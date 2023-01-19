@@ -80,3 +80,4 @@ release: setup-buildx ## Build and release the Docker image to Docker Hub
 		-t $(IMAGE_NAME):$(MIN_VERSION) \
 		-t $(IMAGE_NAME):$(MAJ_VERSION) \
 		-t $(IMAGE_NAME):latest .
+
