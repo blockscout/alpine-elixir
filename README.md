@@ -14,7 +14,7 @@ Dockerfile so that your app runs in a non-elevated context.
 To boot straight to a prompt in the image:
 
 ```
-$ docker run --rm -it --user=root bitwalker/alpine-elixir iex
+$ docker run --rm -it --user=root blockscout/alpine-elixir iex
 Erlang/OTP XX [erts-X.X] [source] [64-bit] [smp:4:4] [ds:4:4:10] [async-threads:10] [hipe] [kernel-poll:false]
 
 Interactive Elixir (<version>) - press Ctrl+C to exit (type h() ENTER for help)
@@ -24,7 +24,7 @@ iex(1)>
 Extending for your own application:
 
 ```dockerfile
-FROM bitwalker/alpine-elixir:latest
+FROM blockscout/alpine-elixir:latest
 
 # Set exposed ports
 EXPOSE 5000
