@@ -1,5 +1,5 @@
 ARG ERLANG_VERSION
-FROM bitwalker/alpine-erlang:${ERLANG_VERSION}
+FROM blockscout/alpine-erlang:${ERLANG_VERSION}
 ARG ELIXIR_VERSION
 
 MAINTAINER Paul Schoenfelder <paulschoenfelder@gmail.com>
